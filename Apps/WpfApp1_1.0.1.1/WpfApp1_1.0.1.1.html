@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>WpfApp1_1.0.1.1</title>
+        <style>
+            div.Modle {
+                color: #000000;
+                width: 450px;
+                border-left: 1px solid #000000;
+                border-right: 1px solid #000000;
+                border-bottom: 1px solid #000000;
+                border-top: 2px #000000 solid;
+                display: inline-block;
+                background-color: #13a0ff;
+            }
+            div.title {
+                text-align: center;
+                background-color: #13a0ff;
+                color: #FFFFFF;
+            }
+            a.under {
+                text-decoration:none;
+            }
+            div.more {
+                background-color: #FFFFFF;
+                color: #000000;
+            }
+        </style>
+        <!--<script>
+            window.onload = function () {
+                var oroll = document.getElementById("roll");
+                var oroll_1 = document.getElementById("roll_1");
+                var oroll_2 = document.getElementById("roll_2");
+                oroll_2.innerHTML = oroll_1.innerHTML;
+                function toTop() {
+                    //向上滚bai动duzhi
+                    /*if (oroll.scrollTop >= oroll_1.offsetHeight) {
+                        oroll.scrollTop = 0
+                        } else {
+                            oroll.scrollTop += 1;
+                        }*/
+                    //向左dao滚动
+                    if (oroll.scrollLeft >= oroll_1.offsetWidth) {
+                        oroll.scrollLeft = 0
+                    } else {
+                        oroll.scrollLeft += 1;
+                    }
+                }
+                var timer = setInterval(toTop, 30);
+                oroll.onmouseover = function () {
+                    clearInterval(timer);
+                }
+                oroll.onmouseout = function () {
+                    timer = setInterval(toTop, 30);
+                }
+            }
+        </script>-->
+    </head>
+    <body>
+        <div class="Main">
+            <div class="Modle">
+                <a href="WpfApp1_1.0.1.1.exe.zip" download="WpfApp1_1.0.1.1.zip" class="under">
+                    <div class="title">
+                        <h1>WpfApp1</h1>
+                        <h2>v1.0.1.1</h2>
+                    </div>
+                    <div class="more">
+                        <div id="icon" style="text-align: center;">
+                            <img src="WpfApp1_1.0.1.1.png" width="450px" height="200px" alt="">
+                            <iframe src="WpfApp1_1.0.1.1.txt" frameborder="0"></iframe>
+                            <a href="setup.exe.zip">
+                                <button>Install</button>
+                            </a>
+                            <a href="WpfApp1_1.0.1.1.exe.zip">
+                                <button>Run</button>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <a> </a>
+        </div>
+        <a href="WpfApp1.html">
+            <img src="Lunch.png" width="30px" height="30px" alt="">
+        </a>
+        <pre>pop-up/relunch/reload</pre>
+    </body>
+</html>
